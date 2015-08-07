@@ -16,8 +16,7 @@ import os
 import tempfile
 
 load_functions = {
-    'mp3': AudioSegment.from_mp3, 'ogg': AudioSegment.from_ogg,
-    'wav': AudioSegment.from_wav}
+    'mp3': AudioSegment.from_mp3}
 
 output_format = 'flac'
 output_suffix = '.' + output_format
